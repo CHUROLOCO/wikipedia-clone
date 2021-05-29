@@ -1,0 +1,686 @@
+/* inicio seteo general de bordes rellenos y tipografia para usar rem */
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+a
+{
+    text-decoration: none;
+}
+.contenedor-principal
+{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.img--width
+{
+    width: 100%;
+}
+/* fin - inicio seteo general de bordes rellenos y tipografia para usar rem */
+/* inicio barra lateral */
+.sidebar-left
+{
+    width: 13.05%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f9fa;
+    background-image: linear-gradient(to top,#F8F9FE 0%,#f8f9fa 80%,rgba(248,249,250,0)100%);
+}
+/* inicio container logo barra lateral */
+.sidebar__contenedor-img
+{
+    margin-bottom: 1.3rem;
+    padding: 0 1.9rem;
+}
+/* fin container logo barra lateral */
+/* inicio section primer menu barra lateral */
+.sidebar--section
+{
+    padding: 0 0.5rem 0 2.9rem;
+}
+.sidebar-navigation-ul
+{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.sidebar-navigation-ul__item-li
+{
+    list-style: none;
+    padding: 0.2rem 0;
+}
+
+.sidebar-navigation-ul__item-a
+{
+    font-size: 1.2rem;
+}
+/* fin section primer menu barra lateral */
+/* inicio menu herramientas barra lateral */
+.sidebar-navigation-tilte
+{
+    background-image: linear-gradient(to right,rgba(200,204,209,0) 0,#c8ccd1 33%,#c8ccd1 66%,rgba(200,204,209,0) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position: center bottom;
+    color: #54595d;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.3rem 0 ;
+}
+/* fin menu herramientas barra lateral */
+/* inicio en otros idiomas barra lateral */
+.sidebar__contenedor-title-img
+{
+    display: flex;
+    justify-content: space-between
+}    
+.sidebar-contenedor-en-otros-idiomas-img-tuerca
+{
+    width: 2rem;
+    margin-right: 1rem;
+}
+/* fin en otros idiomas barra lateral */
+/* fin barra lateral */
+/* inicio header y main */
+.contenedor-header-main
+{
+    /* background: blue; */
+    width: 86.95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* inicio header */
+.header
+{
+    /* background: burlywood; */
+    width: 100%;
+    height: 8rem;
+}
+/* inicio nav No as iniciado, discucion, contribuciones, crear una cuenta, acceder */
+.header-nav-top
+{
+    /* background: rgb(207, 171, 28); */
+    height: 4.1rem;
+    padding-top: 0.7rem;
+}
+.header-nav-top__ul
+{
+    /* background: darkgreen; */
+    width: 116.3rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 0 0 0;
+}
+.header-nav-top-container-no-has-accedido
+{
+    margin: -0.1rem 0.2rem 0 0;
+}
+.header-nav-top-container-no-has-accedido--icon
+{
+    width: 1.3rem;
+}
+
+.header-nav-top__li
+{
+    /* background: crimson; */
+    margin-right: 0.9rem;
+    height: 2.1rem;
+    list-style: none;
+}
+.header-nav-top__a
+{
+    font-size: 1.2rem;
+}
+.header-nav-top--color
+{
+    color: #54595d;
+}
+
+/* fin nav No as iniciado, discucion, contribuciones, crear una cuenta, acceder */
+/* inicio nav portada, discucion, leer, ver codigo, ver historial */
+.header-nav-bottom
+{
+    /* background: rgb(44, 84, 143); */
+    height: 3.9rem;
+    display: flex;
+    border-bottom: 1px solid #a7d7f9;
+    background-image: linear-gradient(to top,#F8F9FE 0%,#f8f9fa 22%,rgba(248,249,250,0)100%);
+}
+.header-nav-bottom__ul
+{
+    width: 87.3rem;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;  
+      
+}
+.header-nav-bottom__ul-sub-contenedor
+{
+    display: flex;
+}
+.header-nav-bottom__li
+{
+    /* background: palegreen; */
+    list-style: none;
+    text-align: center;
+    padding: 1.6rem 7px 0rem 9px;
+}
+.header-nav-bottom-li--gradient
+{
+    list-style: none;
+    text-align: center;
+    list-style: none;
+    text-align: center;
+    padding: 1.6rem 7px 0.7rem 9px;
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#a7d7f9 100%);
+
+}
+    /* Inicio degradados y lineas */
+.header-nav-bottom--gradient
+{
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#a7d7f9 100%);
+    background-repeat: no-repeat;
+    background-size: 1px 100%;
+}
+.header-nav-bottom-li--gradient
+{
+    background-image: linear-gradient(to bottom,rgba(167,215,249,0) 0,#c2e5fd 300%);
+}
+    /* Fin degradados y lineas */
+.header-nav-bottom__a
+{
+    font-size: 1.3rem;
+}
+.header-nav-bottom--white
+{
+    background-color: white;
+}
+.header-form-container
+{
+    width: 29.6rem;
+    padding-left: 0.9rem;
+}
+.header-form-container__input-buscar
+{
+    width: 27.4rem;
+    height: 2.8rem;
+    margin-top: 0.8rem;
+    padding-left: 0.4rem;
+    background:no-repeat center / 1.6rem url('https://es.wikipedia.org/w/skins/Vector/resources/common/images/search.svg?bbf78');
+    background-position-x: 24.99rem;
+    border: 1px solid rgb(49, 49, 49);
+    
+}
+.label-container--buscador
+{
+    display: flex;
+}
+.searchButton
+{
+  
+}
+/* fin nav portada, discucion, leer, ver codigo, ver historial */
+/* fin header */
+/* inicio main */
+.main
+{
+    /* background: blueviolet; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 3.7rem 0 0 2.29rem;
+    margin: -1px;
+    border-left: 1px solid #a7d7f9;
+    border-bottom: 1px solid #a7d7f9;
+    border-right-width: 0;
+}
+/* Inicio bienvenida - numero de articulos - menu */
+.main-section__contenedor-de-bienvenida-y-navegador
+{
+    width: 97.8%;
+    /* background: chartreuse; */
+    height: 14.7rem;
+    display: flex;
+    margin: 0 0 1.7rem 0.1rem;
+    border-radius: 0.3rem;
+    border: 1px solid #c8ccd1;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-color: #f8f9fa;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 15%);
+
+}
+/* Inicio bienvenida */
+.main-bienvenidos-title-y-parrafo
+{
+    width: 40.5%;
+    /* background: rgb(30, 6, 53); */
+    padding: 3.2rem 0 3.2rem 2.45rem;
+    background-image: linear-gradient(to right,#f8f9fa 0%,#f8f9fa 40%,rgba(248,249,250,0)100%);
+}
+.main-bienvenidos-title-y-parrafo-container
+{
+    margin-top: 0.2rem;
+}
+.main-bienvenidos-title-y-parrafo__title
+{
+    font-size: 2.88rem;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-weight: normal;
+    
+    
+}
+.main-bienvenidos-title-y-parrafo__parrafo
+{
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+    margin-top: 0.24rem;
+}
+/* fin Inicio bienvenida */
+/* inicio navegador numero de articulos y menu del main */
+.main-navegdor
+{
+    /* background: burlywood; */
+    width: 59.5%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-navegdor__numero-de-articulos-contenedor
+{
+    /* background: aquamarine; */
+    width: 100%;
+    height: 56.4%;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 2.3rem 1.8rem 0;
+
+}
+.main-navegdor--numero-de-articulos__Numeros
+{
+    font-weight: 700;
+}
+.main-navegdor-container
+{
+    /* background-color: rgb(52, 85, 21); */
+    width: 100%;
+    display: flex;
+    height: 43.6%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 3.01rem 0 0;
+}
+.main-navegdor-container__li
+{
+    list-style: none;
+    margin-left: 1.54rem;
+}
+.main-navegdor-container__a
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: rgb(32, 33, 34);
+}
+/* fin navegador numero de articulos y menu del main */
+/* Fin inicio bienvenida - numero de articulos - menu */
+/* inicio contenedor de articulo destacado, bueno, Recursos del día, Portales */
+.main-section-sub-container--articulos
+{
+    border-bottom: 1px solid #c8ccd1;
+}
+.contenedor-de-articulo-destacado-bueno-Recursos-del-día-Portales
+{
+    width: 53.79%;
+    display: flex;
+    /* background: cyan; */
+    flex-direction: column;
+    margin: 0 2rem 0 0.1rem;
+    border: 1px solid #c8ccd1;
+}
+
+.main-section__container-articulo-destacado, .main-section__container-articulo-bueno, .main-section__container-recursos-del-dia, .main-section__container-portales
+{
+    /* background: rgb(107, 43, 20); */
+    width: 100%;
+    /* min-height: 70rem; */
+    padding: 1.6rem;
+}
+/* inicio section del articulo destacado */
+.main-global--encabezado
+{
+    font-size: 1.4rem;
+    color: #72777d;
+    line-height: 1.25;
+}
+.main-global--title
+{
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    font-size: 2.1rem;
+    margin: 0 0 1.5rem 0;
+    font-weight: normal;
+}
+.main-section-sub-container__articulo-destacado-img-portman-enero2009
+{
+    width: 16.1rem;
+    float: right;
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    margin: 0 0 2.2rem 2.2rem;
+}
+.main--contenedor-global-figcation
+{
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+}
+.main-global--parrafo
+{
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    line-height: 2.24rem;
+}
+.main--contenedor-global--leer-todos-los-articulos-tres-puntos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.main-section-sub-container__articulo-destacado-leer-todos-los-articulos-destacados
+{
+    display: inherit;
+    align-items: center;
+    margin: 2rem 0 0 0;
+}
+.main--contenedor-global-leer, 
+.main--global-leer-todos-los-articulos-li
+{
+    list-style: none;
+    padding-right: 1rem
+}
+.main--contenedor-global-leer 
+{
+    background-color: #f8f9fa;
+    padding: 5px 12px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    font-weight: bold;
+    
+}
+.main--global-leer-todos-los-articulos-a
+{
+    font-size: 1.4rem;
+    color: #202122;
+}
+.main--global-leer-todos-los-articulos-li
+{
+    color: #000;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.main--global-img-tres-puntos
+{
+    width: 2rem;
+}
+/* fin section del articulo destacado */
+/* inicio section articulo bueno*/
+.main-section-sub-container__articulo-bueno-img
+{
+    width: 14.8rem;
+    float: right;
+    margin: 0 0 0 11px;
+
+}
+/* fin section articulo bueno */
+/* inicio section Recurso del día */
+.main-section-sub-container__recursos-del-dia-img
+{
+    padding: 0 4.3rem;
+}
+.main--contenedor-recurso-dia-figcation
+{
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 0.8rem 0;
+}
+.main-section-sub-container__recursos-del-dia-archivo-li
+{
+    list-style: none;
+    margin: 3rem 0 0.8rem 1.4rem;
+}
+.main-section-sub-container__recursos-del-dia-archivo-a
+{
+    font-size: 1.4rem;
+    color: #202122;
+    font-weight: 700
+}
+
+/* fin section Recurso del día */
+/* inicio section portales */
+.conntenedor-p-portales
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px dotted #c088fe;
+    margin: 14px 0px 9px 0px;
+}
+.main-section-sub-container__portales-title
+{
+    width: 100%;
+}
+.main-section-sub-container__portales-parrafo
+{
+    font-size: 1.2rem;
+    width: 96.5%;
+    padding: 8px 0 0 0px;
+}
+.main-section-sub-container--portales-parrafo-ciencias-sociales
+{
+    width: 90%;
+    margin: 0 auto 0 0;
+}
+.main-section__container-portales
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-section-sub-container__portales-img
+{
+    width: 3.5%;
+    padding: 0.3rem 0 0 0;
+}
+
+/* fin section portales */
+/* fin contenedor de articulo destacado, bueno, Recursos del día, Portales */
+/* inicio contenedor de Actividad, Enfermerides, Otros proyectos de la Fundación Wikimedia */
+
+.contenedor-de-Actividad-Enfermerides-otros-proyectos-de-la-Fundacion-wikimedia
+{
+    width: 43.5%;
+    /* background: darkgrey; */
+    border: 1px solid #c8ccd1;
+
+}
+/* inicio section Actividad */
+.main-section__container-actividad
+{
+    width: 100%;
+    /* background: rgb(124, 66, 78); */
+    padding: 1.6rem;
+}
+.main-global--sub-title
+{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 1.3rem 0 1rem 0;
+}
+.main-section-sub-container__actividad-img-Leopoldo-jacinto-luque-ari-gold
+{
+    width: 11.6rem;
+    float: right;
+}
+.main-section-sub-container__actividad-img-Leopoldo-jacinto-luque-ari-gold2
+{
+    width: 11.6rem;
+    clear: right;
+    float: right;
+}
+.main-section-sub-container__actividad-li,
+.main-section-sub-container__enfermerides-li
+{
+    list-style-image: url('https://es.wikipedia.org/w/skins/Vector/resources/common/images/bullet-icon.svg?d4515');
+    font-size: 1.4rem;
+    margin: 1.1rem 0 0 2.4rem;
+}
+.main-section-sub-container__actividad-container-otros-eventos-actuales-img-tres-puntos
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.main-section-sub-container__actividad-container-otros-eventos-actuales-img-tres-puntos-li
+{
+    background-color: #f8f9fa;
+    padding: 5px 12px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin: 2.5rem 0 0 0;
+    list-style: none;
+}
+/* fin section Actividad */
+/* inicio section enfermerides */
+.main-section__container-enfermerides
+{
+    padding: 1.6rem;
+}
+.main-section-sub-container__enfermerides-title
+{
+    margin: 0.3rem 0 1.5rem 0;
+}
+.main-section-sub-container__enfermerides-img-Butros_Butros_Ghali
+{
+    width: 10rem;
+    float: right;
+}
+.main-section-sub-container__enfermerides-container-calendario-dias
+{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    margin: 2.5rem 0 0 0;
+}
+.main-section-sub-container__enfermerides-container-calendario-dias-ul
+{
+    display: flex;
+    list-style: none;
+    font-weight: 700;
+}
+.main-section-sub-container__enfermerides-container-calendario-dias-li
+{
+    margin: 0.7rem;
+}
+.defebrero
+{
+    background-color: #f8f9fa;
+    padding: 5px 12px;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    margin: 0;
+}
+
+/* fin section enfermerides */
+/* inicio section Otros proyectos de la Fundación Wikimedia */
+.main-section__container-Otros-proyectos-de-la-Fundación-Wikimedia
+{
+    padding: 1.6rem
+}
+.main-container-proyectos-izq-der
+{
+    padding: 1.2rem 0 0px 5.9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-container-proyectos-izq, 
+.main-container-proyectos-der
+{
+    width: 50%;
+}
+.main-section-sub-container--Meta-Wiki
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-section-sub-container__Otros-proyectos-de-la-Fundación-Wikimedia-container-one-proyecto
+{
+    display: flex;
+    
+}
+.main-section-sub-container__Otros-proyectos-de-la-Fundación-Wikimedia-one-proyecto
+{
+    width: 3rem;
+    margin: 0 1rem 0 0;
+}
+.main-section-sub-container__Otros-proyectos-de-la-Fundación-Wikimedia-titulo-one-proyecto
+{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.main-section-sub-container__Otros-proyectos-de-la-Fundación-Wikimedia-parrafo
+{
+    font-size: 1.26rem;
+}
+/* fin section Otros proyectos de la Fundación Wikimedia */
+/* fin contenedor de Actividad, Enfermerides, Otros proyectos de la Fundación Wikimedia */
+/* fin main */
+/* fin header y main */
+/* inicio footer */
+.footer
+{
+    /* background: brown; */
+    width: 86.8%;
+    font-size: 1.2rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__container-nav-li
+{
+    list-style: none;
+
+}
+.footer__container-nav
+{
+    display: flex;
+    padding: 1.5rem 0 0 0;
+
+}
+.footer__container-img-wikipedia-project-powered-By
+{
+    margin: 0 9.5rem 0 0;
+}
+.container-img-wikipedia-project-powered-By
+{
+    width: 8.8rem;
+}
+/* fin footer */
