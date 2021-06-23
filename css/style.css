@@ -13,6 +13,7 @@ html
 a
 {
     text-decoration: none;
+    color: #0645ad;;
 }
 .contenedor-principal
 {
@@ -202,6 +203,10 @@ a
 {
     font-size: 1.3rem;
 }
+.sidebar-navigation-ul--portada
+{
+    color: #202122;;
+}
 .header-nav-bottom--white
 {
     background-color: white;
@@ -240,7 +245,7 @@ a
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 3.7rem 0 0 2.29rem;
+    padding: 3.7rem 0 4rem 2.29rem;
     margin: -1px;
     border-left: 1px solid #a7d7f9;
     border-bottom: 1px solid #a7d7f9;
@@ -341,7 +346,8 @@ a
 /* inicio contenedor de articulo destacado, bueno, Recursos del día, Portales */
 .main-section-sub-container--articulos
 {
-    border-bottom: 1px solid #c8ccd1;
+    border: 1px solid #c8ccd1;
+    margin:  0 0 2rem 0;
 }
 .contenedor-de-articulo-destacado-bueno-Recursos-del-día-Portales
 {
@@ -350,7 +356,6 @@ a
     /* background: cyan; */
     flex-direction: column;
     margin: 0 2rem 0 0.1rem;
-    border: 1px solid #c8ccd1;
 }
 
 .main-section__container-articulo-destacado, .main-section__container-articulo-bueno, .main-section__container-recursos-del-dia, .main-section__container-portales
@@ -477,7 +482,7 @@ a
     display: flex;
     flex-wrap: wrap;
     border-top: 1px dotted #c088fe;
-    margin: 14px 0px 9px 0px;
+    margin: 9px 0px 2px 0px;
 }
 .main-section-sub-container__portales-title
 {
@@ -513,7 +518,6 @@ a
 {
     width: 43.5%;
     /* background: darkgrey; */
-    border: 1px solid #c8ccd1;
 
 }
 /* inicio section Actividad */
@@ -601,7 +605,7 @@ a
     background-color: #f8f9fa;
     padding: 5px 12px;
     border: 1px solid #a2a9b1;
-    border-radius: 2px;
+    border-radius: 0.2rem;
     margin: 0;
 }
 
@@ -658,7 +662,7 @@ a
     /* background: brown; */
     width: 86.8%;
     font-size: 1.2rem;
-    padding: 2rem;
+    padding: 3rem 2rem 2rem 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
